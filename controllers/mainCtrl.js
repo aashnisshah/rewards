@@ -3,5 +3,7 @@ angularApp.controller('MainCtrl', [
   function($scope){
     $scope.heading = "Hello World";
     $scope.message = "This is me";
+
+    $scope.person = {};
   }
 ]);

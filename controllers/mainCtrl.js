@@ -5,5 +5,9 @@ angularApp.controller('MainCtrl', [
     $scope.message = "This is me";
 
     $scope.person = {};
+
+    $scope.login = function() {
+      console.log('performing log in checks', $scope.person);
+    }
   }
 ]);
